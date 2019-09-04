@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/SimpleWinForms/obj
+/SimpleWinForms/bin
+*.user
+/WindowsFormsApp1/bin
+/WindowsFormsApp1/obj
