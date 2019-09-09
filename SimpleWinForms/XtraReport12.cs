@@ -6,8 +6,8 @@ using DevExpress.XtraReports.UI;
 
 namespace SimpleWinForms
 {
-    public partial class XtraReport1 : DevExpress.XtraReports.UI.XtraReport {
-        public XtraReport1() {
+    public partial class XtraReport12 : DevExpress.XtraReports.UI.XtraReport {
+        public XtraReport12() {
             InitializeComponent();
         }
 

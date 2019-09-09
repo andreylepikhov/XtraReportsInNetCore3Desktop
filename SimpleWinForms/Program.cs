@@ -14,6 +14,8 @@ namespace SimpleWinForms
         [STAThread]
         static void Main()
         {
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("RU-ru");
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("RU-ru");
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraReports.UI;
 
+
 namespace SimpleWinForms
 {
     public partial class Form1 : Form {
@@ -21,13 +22,13 @@ namespace SimpleWinForms
         }
 
         private void Button1_Click(object sender, EventArgs e) {
-            var report = new WindowsFormsApp1.XtraReport1();
+            var report = new XtraReport1();
             var rd = new DevExpress.XtraReports.UI.ReportDesignTool(report);
             rd.ShowDesignerDialog();
         }
 
         private void Button2_Click(object sender, EventArgs e) {
-            var report = new WindowsFormsApp1.XtraReport1();
+            var report = new XtraReport1();
             report.ShowPreviewDialog();
         }
     }

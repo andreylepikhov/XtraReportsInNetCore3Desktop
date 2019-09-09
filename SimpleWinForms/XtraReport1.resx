@@ -117,10 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="jsonDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="crossTabHeaderCell1.Text" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
   <data name="xrPictureBox1.ImageSource" xml:space="preserve">
     <value>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</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="crossTab1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>439.2114, 75</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>Report Title</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ReportHeader.HeightF" type="System.Single, mscorlib">
+    <value>243.833359</value>
+  </data>
+  <assembly alias="DevExpress.Data.v19.2" name="DevExpress.Data.v19.2, Version=19.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+  <data name="xrPictureBox1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v19.2">
+    <value>192.7083, 10.00001</value>
+  </data>
+  <data name="xrPictureBox1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>208.3333, 208.4167</value>
+  </data>
+  <data name="xrLabel1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>133.2114, 30.01302</value>
+  </data>
+  <data name="xrLabel1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v19.2">
+    <value>27.87501, 51.4166832</value>
+  </data>
+  <data name="crossTabHeaderCell4.TextFormatString" xml:space="preserve">
+    <value>Total {0}</value>
+  </data>
+  <data name="crossTab1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v19.2">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <metadata name="jsonDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

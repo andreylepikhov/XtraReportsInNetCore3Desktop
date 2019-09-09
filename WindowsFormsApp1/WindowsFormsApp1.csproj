@@ -82,15 +82,39 @@
       <Link>XtraReport1.Designer.cs</Link>
       <DependentUpon>XtraReport1.cs</DependentUpon>
     </Compile>
+    <Compile Include="..\SimpleWinForms\XtraReport12.cs">
+      <Link>XtraReport12.cs</Link>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\SimpleWinForms\XtraReport12.Designer.cs">
+      <Link>XtraReport12.Designer.cs</Link>
+      <DependentUpon>XtraReport12.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="..\SimpleWinForms\Form1.resx">
       <Link>Form1.resx</Link>
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="..\SimpleWinForms\Form1.ru.resx">
+      <Link>Form1.ru.resx</Link>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="..\SimpleWinForms\XtraReport1.resx">
       <Link>XtraReport1.resx</Link>
       <DependentUpon>XtraReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\SimpleWinForms\XtraReport1.ru.resx">
+      <Link>XtraReport1.ru.resx</Link>
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\SimpleWinForms\XtraReport12.resx">
+      <Link>XtraReport12.resx</Link>
+      <DependentUpon>XtraReport12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\SimpleWinForms\XtraReport12.ru.resx">
+      <Link>XtraReport12.ru.resx</Link>
+      <DependentUpon>XtraReport12.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,5 +141,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
