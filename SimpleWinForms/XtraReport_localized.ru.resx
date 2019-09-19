@@ -120,4 +120,8 @@
   <data name="label1.Text" xml:space="preserve">
     <value>лабел1</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Margins" type="System.Drawing.Printing.Margins, System.Drawing">
+    <value>51, 50, 100, 100</value>
+  </data>
 </root>

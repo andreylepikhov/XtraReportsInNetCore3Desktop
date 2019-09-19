@@ -28,7 +28,8 @@ namespace SimpleWinForms
         }
 
         private void Button2_Click(object sender, EventArgs e) {
-            var report = new XtraReport1();
+            //var report = new XtraReport1();
+            var report = new XtraReport_localized();
             report.ShowPreviewDialog();
         }
     }

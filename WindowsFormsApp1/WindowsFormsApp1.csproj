@@ -82,13 +82,13 @@
       <Link>XtraReport1.Designer.cs</Link>
       <DependentUpon>XtraReport1.cs</DependentUpon>
     </Compile>
-    <Compile Include="..\SimpleWinForms\XtraReport12.cs">
-      <Link>XtraReport12.cs</Link>
+    <Compile Include="..\SimpleWinForms\XtraReport_localized.cs">
+      <Link>XtraReport_localized.cs</Link>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="..\SimpleWinForms\XtraReport12.Designer.cs">
-      <Link>XtraReport12.Designer.cs</Link>
-      <DependentUpon>XtraReport12.cs</DependentUpon>
+    <Compile Include="..\SimpleWinForms\XtraReport_localized.Designer.cs">
+      <Link>XtraReport_localized.Designer.cs</Link>
+      <DependentUpon>XtraReport_localized.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -108,13 +108,13 @@
       <Link>XtraReport1.ru.resx</Link>
       <DependentUpon>XtraReport1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\SimpleWinForms\XtraReport12.resx">
-      <Link>XtraReport12.resx</Link>
-      <DependentUpon>XtraReport12.cs</DependentUpon>
+    <EmbeddedResource Include="..\SimpleWinForms\XtraReport_localized.resx">
+      <Link>XtraReport_localized.resx</Link>
+      <DependentUpon>XtraReport_localized.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\SimpleWinForms\XtraReport12.ru.resx">
-      <Link>XtraReport12.ru.resx</Link>
-      <DependentUpon>XtraReport12.cs</DependentUpon>
+    <EmbeddedResource Include="..\SimpleWinForms\XtraReport_localized.ru.resx">
+      <Link>XtraReport_localized.ru.resx</Link>
+      <DependentUpon>XtraReport_localized.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
